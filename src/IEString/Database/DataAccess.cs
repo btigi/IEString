@@ -48,7 +48,7 @@ namespace IEString.Database
             var sql = @"select distinct game from StringData where game != '' order by game";
             using var cmd = new SQLiteCommand(sql, Connection);
             using var reader = await cmd.ExecuteReaderAsync();
-            if (reader.Read())
+            while (reader.Read())
             {
                 result.Add(reader.GetString(0));
             }

@@ -40,7 +40,6 @@ namespace IEString.Controllers
             return result;
         }
 
-        //[HttpGet("{game}/{strref}")]
         [HttpGet]
         [Route("{game}/{strref}")]
         public async Task<string> GetSpecific(string game, int strref)
