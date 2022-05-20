@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/wyrbbo7tnjobcvpa?svg=true)](https://ci.appveyor.com/project/igi/iestring)
+
+---
+
 # IEString
 
 A small webapi to return strings from Infinity Engine games
